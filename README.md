@@ -16,7 +16,7 @@ rustscan: for quicker enumerations
 # Directory Bruteforcing:
  - gobuster: commandline tool that bruteforces web directories and pages.
  - dirbuster: gui tool that bruteforces web directories and pages (dont really use this because of gui)
- - look at own tool and see 
+ - look at own tool and see if its fast
 
 # Payloads
 - go to pentestmonkey for rev shells
