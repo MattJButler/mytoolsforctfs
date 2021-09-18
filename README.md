@@ -35,9 +35,9 @@ rustscan: for quicker enumerations
  - if lazy use linpeas.sh
  # if not here are the steps
  - sudo -l # allow to run a program as a certain user
- - find . -perm /4000 2> /dev/null # SUID   
- - find . -perm /2000 2> /dev/null # SGID
- - find . -perm /6000 2> /dev/null # Both SUID and SGID
+ - find . -perm /4000 2>/dev/null # SUID   
+ - find . -perm /2000 2>/dev/null # SGID
+ - find . -perm /6000 2>/dev/null # Both SUID and SGID
  - if find a not normal suid and sgid consult https://gtfobins.github.io/
   
 
