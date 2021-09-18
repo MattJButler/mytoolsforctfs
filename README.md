@@ -1,13 +1,13 @@
 
 
 
-# for stego
+# Stego
 
 steghide
 
 
 
-# for enumerations:
+# Enumerations:
 
 port bruteforcing:
 nmap -sV -sC -oN nmap/initial: this is for first enumerations
@@ -27,7 +27,7 @@ rustscan: for quicker enumerations
  - Johntheripper for any rsa based stuff
  - hashcat for bruteforcing hashes
  
- # bruteforcing 
+ # Bruteforcing 
  - For ssh and ftp use hydra
  - for website bruteforcing using either burpsuite intruder module or make one with python
 
