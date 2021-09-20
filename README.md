@@ -15,7 +15,10 @@
  - gobuster: commandline tool that bruteforces web directories and pages.
  - dirbuster: gui tool that bruteforces web directories and pages (dont really use this because of gui)
  - look at own tool and see if its fast
-
+# SQL
+ - Burpsuite intruder mode with wfuzz payload
+ - sqlmap.py for easier
+ - try blind
 # Payloads
 - go to pentestmonkey for rev shells
 - msfconsole 
