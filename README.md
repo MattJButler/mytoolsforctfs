@@ -3,7 +3,7 @@
 
 # Stego
 
-steghide
+ - steghide
 
 
 
