@@ -7,11 +7,9 @@ steghide
 
 
 
-# Enumerations:
-
-port bruteforcing:
-nmap -sV -sC -oN nmap/initial: this is for first enumerations
-rustscan: for quicker enumerations
+# Port Bruteforcing:
+ - nmap -sV -sC -oN nmap/initial: this is for first enumerations 
+ - rustscan: for quicker enumerations
 
 # Directory Bruteforcing:
  - gobuster: commandline tool that bruteforces web directories and pages.
@@ -21,7 +19,7 @@ rustscan: for quicker enumerations
 # Payloads
 - go to pentestmonkey for rev shells
 - msfconsole 
-- vulnhub
+- https://www.exploit-db.com
 
 # Hashes
  - Johntheripper for any rsa based stuff
