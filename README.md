@@ -31,7 +31,8 @@
  # Bruteforcing 
  - For ssh and ftp use hydra
  - for website bruteforcing using either burpsuite intruder module or make one with python
-
+# Encryption
+ - https://github.com/nlitsme/vimdecrypt for vim encryption
 # PrivEsc
  - if lazy use linpeas.sh
  # if not here are the steps
