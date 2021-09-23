@@ -4,6 +4,10 @@
 # Stego
 
  - steghide
+ - allways run file
+ - binwalk
+ - convert it to different file extensions
+ - check hex editor
 
 
 
